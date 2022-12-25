@@ -1,0 +1,2855 @@
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |      E      |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D,E  |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+---------------+
+| Parameter  |     Value     |
++------------+---------------+
+|     a      |    9.42371    |
+|     h0     | 176.98849 MPa |
+|    tau0    |  66.90195 MPa |
+|   tausat   | 919.54027 MPa |
+|    self    |    0.72837    |
+|  coplanar  |    1.24563    |
+| collinear  |    21.13557   |
+| orthogonal |    0.41321    |
+|  glissile  |    1.35969    |
+|  sessile   |    2.77789    |
++------------+---------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+---------------+
+| Parameter  |     Value     |
++------------+---------------+
+|     a      |    9.42371    |
+|     h0     | 176.98849 MPa |
+|    tau0    |  66.90195 MPa |
+|   tausat   | 919.54027 MPa |
+|    self    |    0.72837    |
+|  coplanar  |    1.24563    |
+| collinear  |    21.13557   |
+| orthogonal |    0.41321    |
+|  glissile  |    1.35969    |
+|  sessile   |    2.77789    |
++------------+---------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 32)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 151.443359375
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 22)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 289.1228942871094
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 22)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 246.8994598388672
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 22)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 162.14500427246094
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 22)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 229.3492889404297
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 22)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 97.56793212890625
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 22)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 135.56919860839844
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat', 'self']
+(PH4) The small hardening parameters are ['coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 4 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 5 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+(PH4) #### Stage 1 ####
+(PH4) #### (Curve PH4) Iteration 1 ####
+(PH4) The best candidate parameters found by PSO
++------------+-----------------------+
+| Parameter  |         Value         |
++------------+-----------------------+
+|     a      |        9.42371        |
+|     h0     |     176.98849 MPa     |
+|    tau0    | 55.60622 MPa (target) |
+|   tausat   |     919.54027 MPa     |
+|    self    |        0.72837        |
+|  coplanar  |        1.24563        |
+| collinear  |        21.13557       |
+| orthogonal |        0.41321        |
+|  glissile  |        1.35969        |
+|  sessile   |        2.77789        |
++------------+-----------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 2.298313710859989
+
+(PH4) #### Stage 1 ####
+(PH4) Running iteration 1 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 26)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 102.90357971191406
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 11)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 247.8371124267578
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 13)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 288.9081726074219
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 17)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 110.31150817871094
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 15)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 288.1913146972656
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 19)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 114.32444763183594
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 178.91940307617188
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat', 'self']
+(PH4) The small hardening parameters are ['coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 4 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 5 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+(PH4) #### Stage 1 ####
+(PH4) #### (Curve PH4) Iteration 1 ####
+(PH4) The best candidate parameters found by PSO
++------------+-----------------------+
+| Parameter  |         Value         |
++------------+-----------------------+
+|     a      |        6.434218       |
+|     h0     |     324.312156 MPa    |
+|    tau0    | 57.18708 MPa (target) |
+|   tausat   |     784.607804 MPa    |
+|    self    |        0.967484       |
+|  coplanar  |        1.624813       |
+| collinear  |        5.07754        |
+| orthogonal |        0.872437       |
+|  glissile  |        0.247625       |
+|  sessile   |        2.332166       |
++------------+-----------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 93.16870199241835
+
+(PH4) #### Stage 1 ####
+(PH4) Running iteration 1 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 117.11598205566406
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 147.16648864746094
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 228.02452087402344
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 155.94955444335938
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 239.75096130371094
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 151.5980224609375
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 145.80844116210938
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat', 'self']
+(PH4) The small hardening parameters are ['coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 4 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 5 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+(PH4) #### Stage 1 ####
+(PH4) #### (Curve PH4) Iteration 1 ####
+(PH4) The best candidate parameters found by PSO
++------------+-----------------------+
+| Parameter  |         Value         |
++------------+-----------------------+
+|     a      |        6.434218       |
+|     h0     |     324.312156 MPa    |
+|    tau0    | 56.54572 MPa (target) |
+|   tausat   |     784.607804 MPa    |
+|    self    |        0.967484       |
+|  coplanar  |        1.624813       |
+| collinear  |        5.07754        |
+| orthogonal |        0.872437       |
+|  glissile  |        0.247625       |
+|  sessile   |        2.332166       |
++------------+-----------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 14.879376972623895
+
+(PH4) #### Stage 1 ####
+(PH4) Running iteration 1 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |      2%     |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 106.51676177978516
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 284.072998046875
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 187.8601531982422
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 131.1012725830078
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 264.72515869140625
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 112.0010757446289
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 187.85496520996094
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat', 'self']
+(PH4) The small hardening parameters are ['coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 4 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 5 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+(PH4) #### Stage 1 ####
+(PH4) #### (Curve PH4) Iteration 1 ####
+(PH4) The best candidate parameters found by PSO
++------------+-----------------------+
+| Parameter  |         Value         |
++------------+-----------------------+
+|     a      |        6.434218       |
+|     h0     |     324.312156 MPa    |
+|    tau0    | 55.66449 MPa (target) |
+|   tausat   |     784.607804 MPa    |
+|    self    |        0.967484       |
+|  coplanar  |        1.624813       |
+| collinear  |        5.07754        |
+| orthogonal |        0.872437       |
+|  glissile  |        0.247625       |
+|  sessile   |        2.332166       |
++------------+-----------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 17.68066973195849
+
+(PH4) #### Stage 1 ####
+(PH4) Running iteration 1 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 117.75867462158203
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 251.3219757080078
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 154.11289978027344
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 185.11708068847656
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 237.1349334716797
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 158.42970275878906
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 138.35614013671875
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat']
+(PH4) The small hardening parameters are ['self', 'coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 3 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 6 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 92.90645599365234
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 308.42095947265625
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 328.3191833496094
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 141.01402282714844
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 265.6609802246094
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 113.44550323486328
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 159.44337463378906
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat']
+(PH4) The small hardening parameters are ['self', 'coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 3 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 6 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+(PH4) #### Stage 1 ####
+(PH4) #### (Curve PH4) Iteration 1 ####
+(PH4) The best candidate parameters found by PSO
++------------+-----------------------+
+| Parameter  |         Value         |
++------------+-----------------------+
+|     a      |        6.434218       |
+|     h0     |     324.312156 MPa    |
+|    tau0    | 54.79716 MPa (target) |
+|   tausat   |     784.607804 MPa    |
+|    self    |        0.967484       |
+|  coplanar  |        1.624813       |
+| collinear  |        5.07754        |
+| orthogonal |        0.872437       |
+|  glissile  |        0.247625       |
+|  sessile   |        2.332166       |
++------------+-----------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 26.705800492356225
+
+(PH4) #### Stage 1 ####
+(PH4) Running iteration 1 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 500 initial simulations completed.
+(PH4) No additional iteration simulations completed.
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (500, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 105.77252197265625
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (500, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 297.6838684082031
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (500, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 212.02430725097656
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (500, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 94.99885559082031
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (500, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 214.88136291503906
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (500, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 142.65609741210938
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (500, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (500, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 146.10958862304688
+
+(PH4) The number of combined interpolate curves is 500
+(PH4) Finish training ANN for all loadings of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat']
+(PH4) The small hardening parameters are ['self', 'coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 3 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 6 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) Optimizing the parameters tau0
+(PH4) First optimization stage starts
+
+(PH4) #### Stage 1 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+
+(PH4) #### Stage 1 ####
+(PH4) #### (Curve PH4) Iteration 1 ####
+(PH4) The best candidate parameters found by PSO
++------------+---------------------+
+| Parameter  |        Value        |
++------------+---------------------+
+|     a      |       6.434218      |
+|     h0     |    324.312156 MPa   |
+|    tau0    | 53.003 MPa (target) |
+|   tausat   |    784.607804 MPa   |
+|    self    |       0.967484      |
+|  coplanar  |       1.624813      |
+| collinear  |       5.07754       |
+| orthogonal |       0.872437      |
+|  glissile  |       0.247625      |
+|  sessile   |       2.332166      |
++------------+---------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 2.8951473574606936
+
+(PH4) #### Stage 1 ####
+(PH4) Running iteration 1 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 50 iteration simulations completed.
+(PH4) 500 initial simulations completed.
+(PH4) Total: 550 simulations completed.
+
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (550, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 92.75843811035156
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (550, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 234.75714111328125
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (550, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 271.3561096191406
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (550, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 97.51509857177734
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (550, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 146.12754821777344
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (550, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 210.61572265625
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (550, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 149.7368927001953
+
+(PH4) The number of combined interpolate curves is 550
+(PH4) Finish training ANN for all loadings of curve PH4
+(PH4) Total training time: 26.452651500701904s
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat']
+(PH4) The small hardening parameters are ['self', 'coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 3 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 6 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) The file stage1_curves.npy detected, which means the first stage has finished
+(PH4) First optimization stage finished
+
+(PH4) The current result parameters
++------------+----------------------+
+| Parameter  |        Value         |
++------------+----------------------+
+|     a      |       6.434218       |
+|     h0     |    324.312156 MPa    |
+|    tau0    | 53.9818 MPa (target) |
+|   tausat   |    784.607804 MPa    |
+|    self    |       0.967484       |
+|  coplanar  |       1.624813       |
+| collinear  |       5.07754        |
+| orthogonal |       0.872437       |
+|  glissile  |       0.247625       |
+|  sessile   |       2.332166       |
++------------+----------------------+
+(PH4) **********************************************************************
+(PH4) Second optimization stage: Optimize the small yielding parameters for the curve PH4
+
+(PH4) #### Stage 2 ####
+(PH4) There are no small yielding parameters to optimize
+(PH4) Saving second stage result curves as the default curves
+(PH4) Second optimization stage finished
+
+(PH4) The current result parameters
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    |  53.9818 MPa   |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) **********************************************************************
+(PH4) Third optimization stage: Optimize the large hardening parameters for the curve PH4
+
+(PH4) #### Stage 3 ####
+(PH4) Optimizing the parameters a, h0, tausat
+(PH4) Third optimization stage starts
+
+(PH4) #### Stage 3 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+nonlinear_biaxial_TD
+nonlinear_planestrain_RD
+nonlinear_planestrain_TD
+nonlinear_uniaxial_RD
+nonlinear_uniaxial_TD
+
+(PH4) #### Stage 3 ####
+(PH4) #### (Curve PH4) Iteration 51 ####
+(PH4) Searching time by PSO: 25.31846284866333s
+
+(PH4) The best candidate parameters found by PSO
++------------+------------------------+
+| Parameter  |         Value          |
++------------+------------------------+
+|     a      |    6.68283 (target)    |
+|     h0     | 620.09136 MPa (target) |
+|    tau0    |      53.9818 MPa       |
+|   tausat   | 460.70141 MPa (target) |
+|    self    |        0.967484        |
+|  coplanar  |        1.624813        |
+| collinear  |        5.07754         |
+| orthogonal |        0.872437        |
+|  glissile  |        0.247625        |
+|  sessile   |        2.332166        |
++------------+------------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 72.83904770494968
+
+(PH4) #### Stage 3 ####
+(PH4) Running iteration 51 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 50 iteration simulations completed.
+(PH4) 500 initial simulations completed.
+(PH4) Total: 550 simulations completed.
+
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (550, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 86.07757568359375
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (550, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 294.0812683105469
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (550, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 396.6665954589844
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (550, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 148.03883361816406
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (550, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 229.01589965820312
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (550, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 100.86476135253906
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (550, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 232.72622680664062
+
+(PH4) The number of combined interpolate curves is 550
+(PH4) Finish training ANN for all loadings of curve PH4
+(PH4) Total training time: 31.087705612182617s
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat']
+(PH4) The small hardening parameters are ['self', 'coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 3 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 6 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) The file stage1_curves.npy detected, which means the first stage has finished
+(PH4) First optimization stage finished
+
+(PH4) The current result parameters
++------------+----------------------+
+| Parameter  |        Value         |
++------------+----------------------+
+|     a      |       6.434218       |
+|     h0     |    324.312156 MPa    |
+|    tau0    | 53.9818 MPa (target) |
+|   tausat   |    784.607804 MPa    |
+|    self    |       0.967484       |
+|  coplanar  |       1.624813       |
+| collinear  |       5.07754        |
+| orthogonal |       0.872437       |
+|  glissile  |       0.247625       |
+|  sessile   |       2.332166       |
++------------+----------------------+
+(PH4) **********************************************************************
+(PH4) Second optimization stage: Optimize the small yielding parameters for the curve PH4
+
+(PH4) #### Stage 2 ####
+(PH4) There are no small yielding parameters to optimize
+(PH4) Saving second stage result curves as the default curves
+(PH4) Second optimization stage finished
+
+(PH4) The current result parameters
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    |  53.9818 MPa   |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) **********************************************************************
+(PH4) Third optimization stage: Optimize the large hardening parameters for the curve PH4
+
+(PH4) #### Stage 3 ####
+(PH4) Optimizing the parameters a, h0, tausat
+(PH4) Third optimization stage starts
+
+(PH4) #### Stage 3 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+nonlinear_biaxial_TD
+nonlinear_planestrain_RD
+nonlinear_planestrain_TD
+nonlinear_uniaxial_RD
+nonlinear_uniaxial_TD
+
+(PH4) #### Stage 3 ####
+(PH4) #### (Curve PH4) Iteration 51 ####
+(PH4) Searching time by PSO: 43.64212965965271s
+
+(PH4) The best candidate parameters found by PSO
++------------+-------------------------+
+| Parameter  |          Value          |
++------------+-------------------------+
+|     a      |     7.38432 (target)    |
+|     h0     | 1191.61303 MPa (target) |
+|    tau0    |       53.9818 MPa       |
+|   tausat   |  354.87279 MPa (target) |
+|    self    |         0.967484        |
+|  coplanar  |         1.624813        |
+| collinear  |         5.07754         |
+| orthogonal |         0.872437        |
+|  glissile  |         0.247625        |
+|  sessile   |         2.332166        |
++------------+-------------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 43.74070049647513
+
+(PH4) #### Stage 3 ####
+(PH4) Running iteration 51 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      PH     |
+|           Optimizer           |     PSO     |
+|         Target curves         |     PH4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |     MPa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.5%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(PH4) **********************************************************************
+(PH4) Step 1: Loading progress and preparing data for curve PH4
+
+(PH4) Curve PH4 status: 
+(PH4) 50 iteration simulations completed.
+(PH4) 500 initial simulations completed.
+(PH4) Total: 550 simulations completed.
+
+(PH4) Saving interpolating PH4 target curves
+(PH4) Saving initial interpolating curves and reverse initial interpolating curves
+(PH4) Experimental and simulated curves preparation completed
+
+(PH4) Curve PH4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 212.946 MPa  |  [209.752, 216.140] MPa |  [210.816, 215.075 MPa] |
+| nonlinear_planestrain_TD | 214.199 MPa  |  [210.986, 217.412] MPa |  [212.057, 216.341 MPa] |
+|  nonlinear_uniaxial_RD   | 196.410 MPa  |  [193.464, 199.356] MPa |  [194.446, 198.374 MPa] |
+|  nonlinear_uniaxial_TD   | 198.441 MPa  |  [195.465, 201.418] MPa |  [196.457, 200.426 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(PH4) Parameter set of the closest simulation curve to the target curve PH4 is: 
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    | 56.349675 MPa  |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) Saving the default curves
+(PH4) This parameter set will serve as default parameters for the 4 stage optimization of curve PH4
+
+(PH4) **********************************************************************
+(PH4) Step 2: Train the regressors for all loadings with the initial simulations of curve PH4
+
+(PH4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(PH4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2200   |
+|   Epochs of nonlinear_biaxial_RD   |   3200   |
+|   Epochs of nonlinear_biaxial_TD   |   2200   |
+| Epochs of nonlinear_planestrain_RD |   3600   |
+| Epochs of nonlinear_planestrain_TD |   3000   |
+|  Epochs of nonlinear_uniaxial_RD   |   3400   |
+|  Epochs of nonlinear_uniaxial_TD   |   2000   |
++------------------------------------+----------+
+
+(PH4) (linear_uniaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (linear_uniaxial_RD) stressLabels shape is (550, 27)
+(PH4) Finish training ANN for loading linear_uniaxial_RD
+(PH4) Training MSE error: 132.862060546875
+
+(PH4) (nonlinear_biaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_biaxial_RD) stressLabels shape is (550, 12)
+(PH4) Finish training ANN for loading nonlinear_biaxial_RD
+(PH4) Training MSE error: 188.86390686035156
+
+(PH4) (nonlinear_biaxial_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_biaxial_TD) stressLabels shape is (550, 14)
+(PH4) Finish training ANN for loading nonlinear_biaxial_TD
+(PH4) Training MSE error: 244.97340393066406
+
+(PH4) (nonlinear_planestrain_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_planestrain_RD) stressLabels shape is (550, 18)
+(PH4) Finish training ANN for loading nonlinear_planestrain_RD
+(PH4) Training MSE error: 95.0294418334961
+
+(PH4) (nonlinear_planestrain_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_planestrain_TD) stressLabels shape is (550, 16)
+(PH4) Finish training ANN for loading nonlinear_planestrain_TD
+(PH4) Training MSE error: 244.8945770263672
+
+(PH4) (nonlinear_uniaxial_RD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_uniaxial_RD) stressLabels shape is (550, 20)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_RD
+(PH4) Training MSE error: 135.02261352539062
+
+(PH4) (nonlinear_uniaxial_TD) paramFeatures shape is (550, 10)
+(PH4) (nonlinear_uniaxial_TD) stressLabels shape is (550, 21)
+(PH4) Finish training ANN for loading nonlinear_uniaxial_TD
+(PH4) Training MSE error: 134.9839324951172
+
+(PH4) The number of combined interpolate curves is 550
+(PH4) Finish training ANN for all loadings of curve PH4
+(PH4) Total training time: 34.37339949607849s
+
+(PH4) **********************************************************************
+(PH4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve PH4
+
+(PH4) The large yielding parameters are ['tau0']
+(PH4) The small yielding parameters are []
+(PH4) The large hardening parameters are ['a', 'h0', 'tausat']
+(PH4) The small hardening parameters are ['self', 'coplanar', 'collinear', 'orthogonal', 'glissile', 'sessile']
+
+(PH4) There are 1 large yielding parameters
+(PH4) 1st stage optimization required
+(PH4) There are no small yielding parameters
+(PH4) 2nd stage optimization not required
+(PH4) There are 3 large hardening parameters
+(PH4) 3rd stage optimization required
+(PH4) There are 6 small hardening parameters
+(PH4) 4th stage optimization required
+
+(PH4) Because there are no small yielding parameters but there are large yielding parameters
+(PH4) the large yielding deviation percentage is set as the small yielding deviation percentage
+(PH4) largeLinearYieldingDev = 0.5%
+
+(PH4) largeNonlinearYieldingDev = 1%
+
+(PH4) The chosen optimizer is Particle Swarm Optimization
+(PH4) Starting the four stage optimization for curve PH4
+
+(PH4) **********************************************************************
+(PH4) First optimization stage: Optimize the large yielding parameters for the curve PH4
+
+(PH4) #### Stage 1 ####
+(PH4) The file stage1_curves.npy detected, which means the first stage has finished
+(PH4) First optimization stage finished
+
+(PH4) The current result parameters
++------------+----------------------+
+| Parameter  |        Value         |
++------------+----------------------+
+|     a      |       6.434218       |
+|     h0     |    324.312156 MPa    |
+|    tau0    | 53.9818 MPa (target) |
+|   tausat   |    784.607804 MPa    |
+|    self    |       0.967484       |
+|  coplanar  |       1.624813       |
+| collinear  |       5.07754        |
+| orthogonal |       0.872437       |
+|  glissile  |       0.247625       |
+|  sessile   |       2.332166       |
++------------+----------------------+
+(PH4) **********************************************************************
+(PH4) Second optimization stage: Optimize the small yielding parameters for the curve PH4
+
+(PH4) #### Stage 2 ####
+(PH4) There are no small yielding parameters to optimize
+(PH4) Saving second stage result curves as the default curves
+(PH4) Second optimization stage finished
+
+(PH4) The current result parameters
++------------+----------------+
+| Parameter  |     Value      |
++------------+----------------+
+|     a      |    6.434218    |
+|     h0     | 324.312156 MPa |
+|    tau0    |  53.9818 MPa   |
+|   tausat   | 784.607804 MPa |
+|    self    |    0.967484    |
+|  coplanar  |    1.624813    |
+| collinear  |    5.07754     |
+| orthogonal |    0.872437    |
+|  glissile  |    0.247625    |
+|  sessile   |    2.332166    |
++------------+----------------+
+(PH4) **********************************************************************
+(PH4) Third optimization stage: Optimize the large hardening parameters for the curve PH4
+
+(PH4) #### Stage 3 ####
+(PH4) Optimizing the parameters a, h0, tausat
+(PH4) Third optimization stage starts
+
+(PH4) #### Stage 3 ####
+(PH4) The loadings not satisfied are
+linear_uniaxial_RD
+nonlinear_biaxial_TD
+nonlinear_planestrain_RD
+nonlinear_planestrain_TD
+nonlinear_uniaxial_RD
+nonlinear_uniaxial_TD
+
+(PH4) #### Stage 3 ####
+(PH4) #### (Curve PH4) Iteration 51 ####
+(PH4) Searching time by PSO: 82.21330070495605s
+
+(PH4) The best candidate parameters found by PSO
++------------+-------------------------+
+| Parameter  |          Value          |
++------------+-------------------------+
+|     a      |     5.34331 (target)    |
+|     h0     | 1351.52249 MPa (target) |
+|    tau0    |       53.9818 MPa       |
+|   tausat   |  280.43852 MPa (target) |
+|    self    |         0.967484        |
+|  coplanar  |         1.624813        |
+| collinear  |         5.07754         |
+| orthogonal |         0.872437        |
+|  glissile  |         0.247625        |
+|  sessile   |         2.332166        |
++------------+-------------------------+
+(PH4) This is new parameters. Fitness value of the best candidate parameters: 43.20141019885632
+
+(PH4) #### Stage 3 ####
+(PH4) Running iteration 51 simulation
+

@@ -1,0 +1,485 @@
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      DB     |
+|           Optimizer           |      BO     |
+|         Target curves         |     DB4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |      Pa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.2%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+(DB4) **********************************************************************
+(DB4) Step 1: Loading progress and preparing data for curve DB4
+
+(DB4) Curve DB4 status: 
+(DB4) 40 iteration simulations completed.
+(DB4) 500 initial simulations completed.
+(DB4) Total: 540 simulations completed.
+
+(DB4) Saving interpolating DB4 target curves
+(DB4) Saving initial interpolating curves and reverse initial interpolating curves
+(DB4) Experimental and simulated curves preparation completed
+
+(DB4) Curve DB4 info: 
++--------------------------+--------------+-------------------------+-------------------------+
+|         Loading          | Exp σ_yield  | Large σ_yield sim range | Small σ_yield sim range |
++--------------------------+--------------+-------------------------+-------------------------+
+|    linear_uniaxial_RD    | 132.147 MPa  |  [130.826, 133.469] MPa |  [131.487, 132.808 MPa] |
+|   nonlinear_biaxial_RD   | 232.185 MPa  |  [228.702, 235.668] MPa |  [229.863, 234.507 MPa] |
+|   nonlinear_biaxial_TD   | 221.318 MPa  |  [217.998, 224.637] MPa |  [219.105, 223.531 MPa] |
+| nonlinear_planestrain_RD | 209.491 MPa  |  [206.348, 212.633] MPa |  [207.396, 211.586 MPa] |
+| nonlinear_planestrain_TD | 209.796 MPa  |  [206.649, 212.943] MPa |  [207.698, 211.894 MPa] |
+|  nonlinear_uniaxial_RD   | 194.204 MPa  |  [191.291, 197.117] MPa |  [192.262, 196.146 MPa] |
+|  nonlinear_uniaxial_TD   | 194.324 MPa  |  [191.409, 197.239] MPa |  [192.381, 196.267 MPa] |
++--------------------------+--------------+-------------------------+-------------------------+
+
+(DB4) Parameter set of the closest simulation curve to the target curve DB4 is: 
++-----------+-----------------+
+| Parameter |      Value      |
++-----------+-----------------+
+|   dipole  |    1.15559 b    |
+|   islip   |    369.81541    |
+|   omega   |    48.9995 b³   |
+|     p     |     0.02352     |
+|     q     |     1.04452     |
+|   tausol  | 324.91246e6 MPa |
+|     Qs    |  6.26883e-19 J  |
+|     Qc    |   1.9904e-19 J  |
+|     v0    | 65.97649e-5 m/s |
+|   rho_e   |  4.22212e12 m⁻² |
++-----------+-----------------+
+(DB4) Saving the default curves
+(DB4) This parameter set will serve as default parameters for the 4 stage optimization of curve DB4
+
+(DB4) **********************************************************************
+(DB4) Step 2: Train the regressors for all loadings with the initial simulations of curve DB4
+
+(DB4) ANN model: (parameters) -> (stress values at interpolating strain points)
+(DB4) ANN configuration:
++------------------------------------+----------+
+|         ANN configurations         |  Choice  |
++------------------------------------+----------+
+|      Number of hidden layers       |    2     |
+|     Hidden layer nodes formula     | formula1 |
+|           ANN Optimizer            |   Adam   |
+|           Learning rate            |   0.1    |
+|       L2 regularization term       |   0.5    |
+|    Epochs of linear_uniaxial_RD    |   2800   |
+|   Epochs of nonlinear_biaxial_RD   |   2200   |
+|   Epochs of nonlinear_biaxial_TD   |   3000   |
+| Epochs of nonlinear_planestrain_RD |   3200   |
+| Epochs of nonlinear_planestrain_TD |   3600   |
+|  Epochs of nonlinear_uniaxial_RD   |   2400   |
+|  Epochs of nonlinear_uniaxial_TD   |   3400   |
++------------------------------------+----------+
+
+(DB4) (linear_uniaxial_RD) paramFeatures shape is (540, 10)
+(DB4) (linear_uniaxial_RD) stressLabels shape is (540, 26)
+(DB4) Finish training ANN for loading linear_uniaxial_RD
+(DB4) Training MSE error: 134.88394165039062
+
+(DB4) (nonlinear_biaxial_RD) paramFeatures shape is (540, 10)
+(DB4) (nonlinear_biaxial_RD) stressLabels shape is (540, 14)
+(DB4) Finish training ANN for loading nonlinear_biaxial_RD
+(DB4) Training MSE error: 316.06146240234375
+
+(DB4) (nonlinear_biaxial_TD) paramFeatures shape is (540, 10)
+(DB4) (nonlinear_biaxial_TD) stressLabels shape is (540, 15)
+(DB4) Finish training ANN for loading nonlinear_biaxial_TD
+(DB4) Training MSE error: 147.0830841064453
+
+(DB4) (nonlinear_planestrain_RD) paramFeatures shape is (540, 10)
+(DB4) (nonlinear_planestrain_RD) stressLabels shape is (540, 21)
+(DB4) Finish training ANN for loading nonlinear_planestrain_RD
+(DB4) Training MSE error: 168.38388061523438
+
+(DB4) (nonlinear_planestrain_TD) paramFeatures shape is (540, 10)
+(DB4) (nonlinear_planestrain_TD) stressLabels shape is (540, 17)
+(DB4) Finish training ANN for loading nonlinear_planestrain_TD
+(DB4) Training MSE error: 135.00686645507812
+
+(DB4) (nonlinear_uniaxial_RD) paramFeatures shape is (540, 10)
+(DB4) (nonlinear_uniaxial_RD) stressLabels shape is (540, 24)
+(DB4) Finish training ANN for loading nonlinear_uniaxial_RD
+(DB4) Training MSE error: 123.25312805175781
+
+(DB4) (nonlinear_uniaxial_TD) paramFeatures shape is (540, 10)
+(DB4) (nonlinear_uniaxial_TD) stressLabels shape is (540, 21)
+(DB4) Finish training ANN for loading nonlinear_uniaxial_TD
+(DB4) Training MSE error: 126.62931060791016
+
+(DB4) The number of combined interpolate curves is 540
+(DB4) Finish training ANN for all loadings of curve DB4
+(DB4) Total training time: 36.99658918380737s
+
+(DB4) **********************************************************************
+(DB4) Step 3: Assessment of number optimization stages and level of deviation percentage of curve DB4
+
+(DB4) The large yielding parameters are ['tausol', 'Qs', 'rho_e']
+(DB4) The small yielding parameters are ['p', 'q', 'v0']
+(DB4) The large hardening parameters are ['dipole', 'islip', 'omega', 'Qc']
+(DB4) The small hardening parameters are []
+
+(DB4) There are 3 large yielding parameters
+(DB4) 1st stage optimization required
+(DB4) There are 3 small yielding parameters
+(DB4) 2nd stage optimization required
+(DB4) There are 4 large hardening parameters
+(DB4) 3rd stage optimization required
+(DB4) There are no small hardening parameters
+(DB4) 4th stage optimization not required
+
+(DB4) Because there are no small hardening parameters but there are large hardening parameters
+(DB4) the large hardening deviation percentage is set as the small hardening deviation percentage
+(DB4) largeLinearHardeningDev = 1.5%
+
+(DB4) largeNonlinearHardeningDev = 2%
+
+(DB4) The chosen optimizer is Bayesian Optimization
+(DB4) Starting the four stage optimization for curve DB4
+
+(DB4) **********************************************************************
+(DB4) First optimization stage: Optimize the large yielding parameters for the curve DB4
+
+(DB4) #### Stage 1 ####
+(DB4) The file stage1_curves.npy detected, which means the first stage has finished
+(DB4) First optimization stage finished
+
+(DB4) The current result parameters
++-----------+-------------------------+
+| Parameter |          Value          |
++-----------+-------------------------+
+|   dipole  |        1.15559 b        |
+|   islip   |        369.81541        |
+|   omega   |        48.9995 b³       |
+|     p     |         0.02352         |
+|     q     |         1.04452         |
+|   tausol  | 12.39964e6 MPa (target) |
+|     Qs    |  4.6293e-19 J (target)  |
+|     Qc    |       1.9904e-19 J      |
+|     v0    |     65.97649e-5 m/s     |
+|   rho_e   | 4.25022e12 m⁻² (target) |
++-----------+-------------------------+
+(DB4) **********************************************************************
+(DB4) Second optimization stage: Optimize the small yielding parameters for the curve DB4
+
+(DB4) #### Stage 2 ####
+(DB4) The file stage2_curves.npy detected, which means the second stage has finished
+(DB4) Second optimization stage finished
+
+(DB4) The current result parameters
++-----------+--------------------------+
+| Parameter |          Value           |
++-----------+--------------------------+
+|   dipole  |        1.15559 b         |
+|   islip   |        369.81541         |
+|   omega   |        48.9995 b³        |
+|     p     |     0.03905 (target)     |
+|     q     |     1.16983 (target)     |
+|   tausol  |      12.39964e6 MPa      |
+|     Qs    |       4.6293e-19 J       |
+|     Qc    |       1.9904e-19 J       |
+|     v0    | 87.93611e-5 m/s (target) |
+|   rho_e   |      4.25022e12 m⁻²      |
++-----------+--------------------------+
+(DB4) **********************************************************************
+(DB4) Third optimization stage: Optimize the large hardening parameters for the curve DB4
+
+(DB4) #### Stage 3 ####
+(DB4) Optimizing the parameters dipole, islip, omega, Qc
+(DB4) Third optimization stage starts
+
+(DB4) #### Stage 3 ####
+(DB4) The loadings not satisfied are
+linear_uniaxial_RD
+nonlinear_biaxial_RD
+nonlinear_biaxial_TD
+nonlinear_planestrain_RD
+nonlinear_planestrain_TD
+nonlinear_uniaxial_RD
+nonlinear_uniaxial_TD
+
+(DB4) #### Stage 3 ####
+(DB4) #### (Curve DB4) Iteration 41 ####
+(DB4) Searching time by BO: 59.0575749874115s
+
+(DB4) The best candidate parameters found by BO
++-----------+------------------------+
+| Parameter |         Value          |
++-----------+------------------------+
+|   dipole  |   0.06405 b (target)   |
+|   islip   |   91.26893 (target)    |
+|   omega   |  1.01534 b³ (target)   |
+|     p     |        0.03905         |
+|     q     |        1.16983         |
+|   tausol  |     12.39964e6 MPa     |
+|     Qs    |      4.6293e-19 J      |
+|     Qc    | 1.82375e-19 J (target) |
+|     v0    |    87.93611e-5 m/s     |
+|   rho_e   |     4.25022e12 m⁻²     |
++-----------+------------------------+
+(DB4) This is new parameters. Fitness value of the best candidate parameters: 147.88933071537926
+
+(DB4) #### Stage 3 ####
+(DB4) Running iteration 41 simulation
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      DB     |
+|           Optimizer           |      BO     |
+|         Target curves         |     DB4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |      Pa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.2%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+C:\Users\nguye\Desktop\Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      DB     |
+|           Optimizer           |      BO     |
+|         Target curves         |     DB4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |      Pa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.2%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      DB     |
+|           Optimizer           |      BO     |
+|         Target curves         |     DB4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |      Pa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.2%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      DB     |
+|           Optimizer           |      BO     |
+|         Target curves         |     DB4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |      Pa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.2%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
+
+Welcome to the Crystal Plasticity Parameter Calibration software
+
+The configurations you have chosen: 
++-------------------------------+-------------+
+|         Configurations        | User choice |
++-------------------------------+-------------+
+|             Server            |    mahti    |
+|           Hyperqueue          |      no     |
+|   Initial simulation number   |     2000    |
+|   Initial simulation method   |     auto    |
+|        Searching space        |  continuous |
+|         Searching type        |   general   |
+|            Material           |  RVE_1_40_D |
+|             CP Law            |      DB     |
+|           Optimizer           |      BO     |
+|         Target curves         |     DB4     |
+|       Experimental types      |  D, D, D, E |
+|          Stress unit          |      Pa     |
+|       Rounding decimals       |      5      |
+|   Large linear yielding dev   |      1%     |
+|   Small linear yielding dev   |     0.5%    |
+|   Large linear hardening dev  |     1.7%    |
+|   Small linear hardening dev  |     1.5%    |
+|  Large nonlinear yielding dev |     1.5%    |
+|  Small nonlinear yielding dev |      1%     |
+| Large nonlinear hardening dev |     2.2%    |
+| Small nonlinear hardening dev |      2%     |
++-------------------------------+-------------+
+
+Generating necessary directories
+The path to your main project folder is
+/home/springnuance/Desktop/Crystal-Plasticity-COE-Course
+
+PyTorch version: 1.13.0+cpu
+Device used: cpu
+
+**********************************************************************
+
+Step 0: Running initial simulations
+
+Done. 500 simulations completed
+Saving reverse and original initial true and process curves
+Finished preparing all target curves
+
