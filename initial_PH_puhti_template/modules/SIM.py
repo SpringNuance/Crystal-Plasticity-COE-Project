@@ -109,7 +109,6 @@ class SIM:
         server = self.info["server"]
         indices = [*range(1, numberOfAnalysisCurves + 1)]
         del indices[int(middle_fileindex) - 1]
-        #print(indices)
 
         if hyperqueue == "no":
             with open("linux_slurm/array_file.txt", 'w') as filename:
@@ -241,8 +240,6 @@ class SIM:
         simPath = f"simulations/{material}/{CPLaw}/universal/{loading}/{fileIndex}"
         shutil.copytree(f"templates/{material}/{CPLaw}/{loading}", simPath) 
         self.path2params[loading][fileIndex] = params
-        #self.initial_params[fileIndex - 1] = params
-        #np.save(f"results/{material}/{CPLaw}/universal/initial_params.npy", self.initial_params)
         if self.info["CPLaw"] == "PH":
             self.edit_material_parameters_PH(params, simPath)
         if self.info["CPLaw"] == "DB":
@@ -255,8 +252,6 @@ class SIM:
         loadings = self.info["loadings"]
         hyperqueue = self.info["hyperqueue"]
         server = self.info["server"]
-        #rangeIndices = self.jobIndices([1, self.fileIndex], "range")
-        #time.sleep(20)
         if hyperqueue == "no":
             with open("linux_slurm/array_file.txt", 'w') as filename:
                 for loading in loadings:
@@ -404,8 +399,6 @@ class SIM:
         for loading in loadings:
             self.initial_trueCurves[loading] = {}
             self.initial_processCurves[loading] = {}
-            #self.initial_trueCurves[tuple(params.items())] = {}
-            #self.initial_processCurves[tuple(params.items())] = {}
             for (index, params) in self.path2params[loading].items():
                 simPath = f"simulations/{material}/{CPLaw}/universal/{loading}/{index}"
                 path2txt = f'{simPath}/postProc/{material}_tensionX.txt'
@@ -417,8 +410,6 @@ class SIM:
                     trueCurves = preprocessDAMASKTrue(path2txt)
                 self.initial_processCurves[loading][tuple(params.items())] = processCurves
                 self.initial_trueCurves[loading][tuple(params.items())] = trueCurves
-                #self.initial_processCurves[tuple(params.items())][loading] = processCurves
-                #self.initial_trueCurves[tuple(params.items())][loading] = trueCurves
         resultPath = f"results/{material}/{CPLaw}/universal"
         np.save(f"{resultPath}/initial_processCurves.npy", self.initial_processCurves)
         np.save(f"{resultPath}/initial_trueCurves.npy", self.initial_trueCurves) 

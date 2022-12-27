@@ -38,7 +38,7 @@ def main():
     if method == "manual":
         print("\nStarting initial simulations")
         manualParams = np.load(f"manualParams/{material}/{CPLaw}/initial_params.npy", allow_pickle=True)
-        tupleParams = manualParams[25:50]
+        tupleParams = manualParams[400:425]
         simUniversal.run_initial_simulations(tupleParams)
     elif method == "auto":
         if not os.path.exists(f"results/{material}/{CPLaw}/universal/initial_params.npy"):
